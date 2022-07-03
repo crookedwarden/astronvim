@@ -1,0 +1,8 @@
+return {
+  opt ={
+    relativenumber = false
+  }
+}
+
+
+
