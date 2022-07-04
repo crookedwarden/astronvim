@@ -16,7 +16,7 @@ return function()
       cwd = '${workspaceFolder}',
       stopOnEntry = false,
       args = {},
-      runInTerminal = true,
+      externalTerminal = true,
     }
   }
   vim.fn.sign_define("DapStopped", { text = "", texthl = "DiagnosticWarn" })
