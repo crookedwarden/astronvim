@@ -4,12 +4,11 @@ return {
           require("nightfox").setup("user.plugins.nightfox")
       end,
   },
-  ["folke/tokyonight.nvim"] = {
-    tokyonight_style = "night",
-    -- config = function()
-    --   require("tokyonight").setup()
-    -- end
-  },
+  -- ["folke/tokyonight.nvim"] = {
+  --   config = function()
+  --     vim.g.tokyonight_style = "day"
+  --   end
+  -- },
   ["mfussenegger/nvim-dap"] = {
       module = "dap",
       config = require "user.plugins.dap"
